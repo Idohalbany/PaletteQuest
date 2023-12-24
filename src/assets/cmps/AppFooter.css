@@ -1,0 +1,39 @@
+/* style the AppFooter with flex and space between */
+
+.footer-container {
+  background-color: var(--background);
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 4em 1em;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-left > * {
+  font-size: 1rem;
+}
+
+.footer-left p a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.footer-left span {
+  margin: auto 1em;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.4rem;
+  margin: auto 0.7em;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: var(--secondary);
+}

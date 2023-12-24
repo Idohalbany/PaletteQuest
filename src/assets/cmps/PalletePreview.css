@@ -1,0 +1,39 @@
+.pallete-preview {
+  padding: 1em;
+  transition: 0.5s;
+}
+
+.pallete-preview:hover {
+  outline: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+.pallete-preview p {
+  transition: all 0.05s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pallete-preview p:hover {
+  color: var(--secondary);
+}
+
+.pallete-preview img {
+  transition: 0.3s;
+}
+
+.pallete-preview img:hover {
+  transform: scale(1.03);
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.color:hover {
+  opacity: 0.8;
+}

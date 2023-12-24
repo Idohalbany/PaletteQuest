@@ -1,0 +1,14 @@
+/* BASE */
+@import './basic/base.css';
+@import './setup/variables.css';
+
+/* COMPONENTS */
+@import './cmps/AppHeader.css';
+@import './cmps/AppFooter.css';
+@import './cmps/Marked.css';
+@import './cmps/PalleteIndex.css';
+@import './cmps/PalleteList.css';
+@import './cmps/PalletePreview.css';
+
+/* MEDIA QUERIES */
+@import './setup/mq.css';
